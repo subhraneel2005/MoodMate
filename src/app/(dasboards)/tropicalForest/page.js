@@ -13,7 +13,6 @@ import { db } from "@/firebase/config";
 import { addDoc, collection, deleteDoc, doc, getDocs, query, where } from "firebase/firestore";
 import { Input } from "@/components/ui/input";
 
-
 export default function TropicalForest(){
 
   const auth = getAuth();
@@ -132,14 +131,14 @@ export default function TropicalForest(){
              <ul className="block space-y-8 text-xl cursor-pointer mt-52">
                 <Popover>
                 <PopoverTrigger>
-                <li className="px-5 py-2 rounded-lg border-2 bg-sky-700 hover:bg-sky-900 duration-300">Write today's journal</li>
+                <li className="px-5 py-2 rounded-lg border-2 bg-sky-700 hover:bg-sky-900 duration-300">Write today&apos;s journal</li>
                 </PopoverTrigger>
                 <PopoverContent>
                   <div className="block space-y-4">
                     <Input placeholder="Journal Title" value={journalTitle} onChange={(e) => setJournalTitle(e.target.value)}/>
                     <Input placeholder="Journal Description" value={journalDes} onChange={(e) => setJournalDescription(e.target.value)}/>
                     <Input placeholder="Journal Mood" value={journalMood} onChange={(e) => setJournalMood(e.target.value)}/>
-                    <button onClick={createJournal} className="px-4 py-2 rounded-xl border-2 border-l-violet-900">Add today's journal✨</button>
+                    <button onClick={createJournal} className="px-4 py-2 rounded-xl border-2 border-l-violet-900">Add today&apos;s journal✨</button>
                   </div>
                 </PopoverContent>
               </Popover>
@@ -202,7 +201,7 @@ export default function TropicalForest(){
                     <Input placeholder="Journal Title" value={journalTitle} onChange={(e) => setJournalTitle(e.target.value)}/>
                     <Input placeholder="Journal Description" value={journalDes} onChange={(e) => setJournalDescription(e.target.value)}/>
                     <Input placeholder="Journal Mood" value={journalMood} onChange={(e) => setJournalMood(e.target.value)}/>
-                    <button onClick={createJournal} className="px-4 py-2 rounded-xl border-2 border-l-violet-900">Add today's journal✨</button>
+                    <button onClick={createJournal} className="px-4 py-2 rounded-xl border-2 border-l-violet-900">Add today&apos;s journal✨</button>
                   </div>
                 </PopoverContent>
                 </Popover>
