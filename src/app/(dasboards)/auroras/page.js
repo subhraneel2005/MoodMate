@@ -120,7 +120,7 @@ export default function Auroras() {
           <Popover>
             <PopoverTrigger>
               <li className="px-5 py-2 rounded-lg border-2 bg-sky-700 hover:bg-sky-900 duration-300">
-                Write today's journal
+                Write today journal
               </li>
             </PopoverTrigger>
             <PopoverContent>
@@ -141,7 +141,7 @@ export default function Auroras() {
                   onChange={(e) => setJournalMood(e.target.value)}
                 />
                 <button onClick={createJournal} className="px-4 py-2 rounded-xl border-2 border-l-violet-900">
-                  Add today's journal✨
+                  Add today journal✨
                 </button>
               </div>
             </PopoverContent>
@@ -216,7 +216,7 @@ export default function Auroras() {
               <ul className="md:hidden block space-y-3">
                 <Popover>
                   <PopoverTrigger>
-                    <li className="px-5 py-2 rounded-lg border-2 bg-sky-700 hover:bg-sky-900 duration-300">Write today's journal</li>
+                    <li className="px-5 py-2 rounded-lg border-2 bg-sky-700 hover:bg-sky-900 duration-300">Write today journal</li>
                   </PopoverTrigger>
                   <PopoverContent>
                     <div className="block space-y-4">
