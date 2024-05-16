@@ -195,7 +195,7 @@ export default function TropicalForest(){
                 <ul className="md:hidden block space-y-3">
                 <Popover>
                 <PopoverTrigger>
-                <li className="px-5 py-2 rounded-lg border-2 bg-sky-700 hover:bg-sky-900 duration-300">Write today's journal</li>
+                <li className="px-5 py-2 rounded-lg border-2 bg-sky-700 hover:bg-sky-900 duration-300">Write journal</li>
                 </PopoverTrigger>
                 <PopoverContent>
                   <div className="block space-y-4">

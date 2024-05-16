@@ -202,7 +202,7 @@ export default function Mountains(){
                     <Input placeholder="Journal Title" value={journalTitle} onChange={(e) => setJournalTitle(e.target.value)}/>
                     <Input placeholder="Journal Description" value={journalDes} onChange={(e) => setJournalDescription(e.target.value)}/>
                     <Input placeholder="Journal Mood" value={journalMood} onChange={(e) => setJournalMood(e.target.value)}/>
-                    <button onClick={createJournal} className="px-4 py-2 rounded-xl border-2 border-violet-900">Add today's journal✨</button>
+                    <button onClick={createJournal} className="px-4 py-2 rounded-xl border-2 border-violet-900">Add journal✨</button>
                   </div>
                 </PopoverContent>
                 </Popover>
