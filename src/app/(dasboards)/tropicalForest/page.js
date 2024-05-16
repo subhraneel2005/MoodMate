@@ -178,7 +178,7 @@ export default function TropicalForest(){
                 </Popover>
              </ul>
           </div>
-          <div className="md:w-[80%] forestBG flex justify-center items-center relative p-3">
+          <div className="md:w-[80%] w-full forestBG flex justify-center items-center relative p-3">
           <h1 className="text-xl md:text-3xl absolute md:top-9 top-28 left-10 md:left-20">Hey {user?.displayName}👋 welcome to the forest 🌳</h1>
             <nav className="p-5 top-0 right-0 absolute">
              <Popover>

@@ -196,7 +196,7 @@ export default function Auroras() {
           </Popover>
         </ul>
       </div>
-      <div className="md:w-[80%] auroraBG flex justify-center items-center relative p-3">
+      <div className="md:w-[80%] w-full auroraBG flex justify-center items-center relative p-3">
         <h1 className="text-xl md:text-3xl absolute md:top-9 top-28 left-10 md:left-20">
           Hey {user.displayName}👋 welcome to the Auroras✨
         </h1>
