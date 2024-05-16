@@ -7,7 +7,7 @@ export default function Home() {
         <nav className="top-0 left-0 py-4 px-2">
           <ul className="flex justify-evenly text-gray-300 text-lg">
             <li className="hover-underline-animation"><Link href={"/"}>Home</Link></li>
-            <li className="hover-underline-animation"><Link href={"https://linktr.ee/subhraneel"}>About the Developer</Link></li>
+            <li className="hover-underline-animation"><Link href={"https://linktr.ee/subhraneel"} target="_blank">About the Developer</Link></li>
             <li className="hover-underline-animation"><Link href={"/auth"}>SignIn</Link></li>
           </ul>
         </nav>
