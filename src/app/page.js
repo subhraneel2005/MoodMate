@@ -6,9 +6,9 @@ export default function Home() {
       <div className="relative z-10 bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg border border-white border-opacity-20 md:h-[500px] md:w-[700px] h-[350px] w-auto rounded-xl">
         <nav className="top-0 left-0 py-4 px-2">
           <ul className="flex justify-evenly text-gray-300 text-lg">
-            <li className="hover-underline-animation">Home</li>
-            <li className="hover-underline-animation">About</li>
-            <li className="hover-underline-animation">Contact</li>
+            <li className="hover-underline-animation"><Link href={"/"}>Home</Link></li>
+            <li className="hover-underline-animation"><Link href={"https://linktr.ee/subhraneel"}>About the Developer</Link></li>
+            <li className="hover-underline-animation"><Link href={"/auth"}>SignIn</Link></li>
           </ul>
         </nav>
         <div className="block space-y-4 md:mt-28 mt-7 px-8">
